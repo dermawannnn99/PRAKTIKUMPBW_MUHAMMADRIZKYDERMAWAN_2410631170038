@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALAMAN WEB SINGAPERBANGSA</title>
+    <link rel="stylesheet" href="style_pertemuan4.css">
+</head>
+<body>
+    <header>
+        Selamat Datang di Website Universitas Singaperbangsa
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">BERANDA</a></li>
+            <li><a href="#">TENTANG</a></li>
+            <li><a href="#">LAYANAN</a></li>
+            <li><a href="#">KONTAK</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section class="content">
+            <h2>
+                FORMULIR PENDAFTARAN
+            </h2>
+            <p>
+                Silahkan isi formulir pendaftaran ini untuk mendaftar.
+            </p>
+
+            <form method="GET" enctype="multipart/form-data" onsubmit="alert('Formulir berhasil dikirim!')">
+            
+                <div>
+                    <label for=""><b>Nama Lengkap:</b></label>
+                    <input type="text" name="nama" required>
+                </div>
+
+                <div>
+                    <label for=""><b>Email:</b></label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for=""><b>Password:</b></label>
+                    <input type="password" name="password" required>
+                </div>
+
+                <div>
+                    <label for=""><b>Jenis Kelamin:</b></label><br>
+                    <label><input type="radio" name="gender">Laki-Laki</label><br>
+                    <label><input type="radio" name="gender">Perempuan</label>
+                </div>
+
+                <hr>
+
+                <div>
+                    <label for=""><b>Hobi:</b></label><br>
+                    <label><input type="checkbox">Musik</label>
+                    <label><input type="checkbox">Olahraga</label>
+                    <label><input type="checkbox">Membaca</label>
+                </div>
+
+                <div>
+                    <label for=""><b>Pilih Kota:</b></label>
+                    <select name="kota" required>
+                    <option value="">--Pilih Kota--</option>
+                    <option>Jakarta</option>
+                    <option>Surabaya</option>
+                    <option>Bandung</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for=""><b>Pesan Tambahan:</b></label>
+                    <textarea rows="4" placeholder="Tulis pesan disini..." required></textarea>
+                </div>
+
+            <button class="btn">Kirim</button>
+            </form>
+        </section>
+
+        <aside class="sidebar">
+            <h2>
+                INFORMASI
+            </h2>
+            <ul>
+                <li>Pendaftaran Mahasiswa</li>
+                <li>Jadwal Kuliah</li>
+                <li>Pengumuman Terbaru</li>
+                <li>Infromasi Beasiswa 2026</li>
+            </ul>
+    </div>
+
+    <footer>
+        <p>
+            &copy;2024 Halaman Web Universitas Singaperbangsa. Dibuat dengan kasih sayang.
+        </p>
+    </footer>
+    
+</body>
+</html>

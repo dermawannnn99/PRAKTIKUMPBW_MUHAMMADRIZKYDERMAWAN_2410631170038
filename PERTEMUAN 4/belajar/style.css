@@ -1,0 +1,57 @@
+body {
+    height: 1500px;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 50px;
+}
+
+p {
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid blue;
+    text-align: justify;
+}
+
+#pdua {
+    background-color: pink;
+    border: 1px solid red;
+    
+}
+
+.static {
+    background-color:aqua;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.static:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.relative {
+    background-color:blanchedalmond;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.absolute {
+    background-color:blueviolet;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.fixed {
+    background-color:greenyellow;
+    position: fixed;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+}
